@@ -1,0 +1,48 @@
+# PROJECT FLOW
+2:11:31
+
+# BACKEND
+> user login > show products > add to car > payement > verify > show orders
+
+# User Login / Register
+> [POST] user/register          done              registering new user
+> [POST] user/login             done              login existing user
+> [GET] user/profile
+> [GET] user/all                done              fetching all users details
+> [POST] user/forgotpassword
+> [POST] user/resetpassword
+
+
+# Products API
+> products/add                  done              adding new product
+> products/all                  done              fetching all prouducts
+> products/get/:id              done              fetch a unique product using id
+> products/update/:id           done              update the product by its id
+> products/delete/:id           done              delete the product by its id 
+
+
+# Cart API
+> [POST] cart/add               done              adding product to usercart
+> [GET] cart/user               done              get user cart by user id       
+> cart/remove/:id               done              remove a particular product from cart
+> [DELTE] cart/clear            done              delete users complete cart
+> cart/--qnty/:id               done                  ++ , -- the product quantity
+
+
+# Shipping Address
+> address/add                   done              add shipping address
+> address/get                   done              fetch the delivery address
+
+# Payment
+> payment/checkput               d
+> payment/verify                 d
+
+# Order API
+> order/confirm                  d
+> order/confirm/all              d
+
+
+rishabhjangid33
+zCaIrSqAdeKkwkoX
+
+Windows: ctrl + alt + t
