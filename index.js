@@ -10,7 +10,8 @@ dotenv.config({path:"./config.env"}); // importing .env file
 
 require("./dbconnection/connection"); // coonection to database
 const corsOptions = {
-    origin: "http://localhost:3000", // Frontend URL
+    // origin: "http://localhost:3000", // Frontend URL
+    origin: process.env.URL, // Frontend URL
     credentials: true, // Allow cookies to be sent
 };
 app.use(cors(corsOptions)); // cors policy
